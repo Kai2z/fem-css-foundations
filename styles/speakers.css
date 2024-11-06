@@ -1,0 +1,65 @@
+@import "./base.css";
+
+.shoping-cart-icon-primary g path {
+  fill: var(--color-primary);
+}
+
+.speakers .main__title {
+  font-size: 5rem;
+}
+
+.speaker__photo {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  margin-bottom: 36px;
+}
+
+.speaker__photo--top {
+  object-position: top;
+}
+
+.speaker__name {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.speaker__company {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 32px;
+}
+
+.speaker__bio {
+  font-size: 20px;
+  color: black;
+}
+
+.speaker__wrapper {
+  max-width: 460px;
+}
+
+.speakers__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 120px;
+  column-gap: 120px;
+}
+
+.nav {
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  .speakers__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 840px) {
+  .body--no-scroll{
+    overflow: hidden;
+  }
+  
+}
